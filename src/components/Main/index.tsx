@@ -15,7 +15,6 @@ export interface PropsName {
     name: string;
     symbol: string;
   }
-
 }
 
 interface Props {
@@ -38,7 +37,7 @@ export default function Main(props: Props) {
                 <p>Continet: {country.continents}</p>
                 <p>Capital: {country.capital}</p>
                 <p>Population: {country.population}</p>
-                <p>Currencies: name: xxxx </p>
+                <p>Currencies: name:  </p>
               </li>
 
             </>

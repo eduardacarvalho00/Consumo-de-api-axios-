@@ -13,7 +13,7 @@ function App() {
   const onChangeInput = (text: string) => {
     setSearch(text)
   }
-  const [searchParam] = useState(["capital", "name"]);
+  const [searchParam] = useState(["capital", "name.common"]);
   const countryesFilter = country.filter((country) => {
     return searchParam.some((newCountry) => {
       return (

@@ -11,7 +11,7 @@ export default function Search(props: Props) {
     <Container>
       <Content
         type="text"
-        placeholder="Search for countries"
+        placeholder="Search for capital and continents"
         value={search}
         onChange={event => onChangeInput(event.target.value)}
       />
