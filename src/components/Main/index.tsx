@@ -15,6 +15,7 @@ export interface PropsName {
     name: string;
     symbol: string;
   }
+  country: string;
 }
 
 interface Props {

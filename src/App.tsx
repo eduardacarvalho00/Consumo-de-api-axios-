@@ -13,10 +13,11 @@ function App() {
   const onChangeInput = (text: string) => {
     setSearch(text)
   }
-  const [searchParam] = useState(["capital", "name.common"]);
+  const [searchParam] = useState(["capital", "continents"]);
   const countryesFilter = country.filter((country) => {
     return searchParam.some((newCountry) => {
       return (
+        // @ts-ignore
         country[newCountry]?.toString()?.toLowerCase()?.indexOf(search.toLowerCase()) > -1
       )
     })
